@@ -1,0 +1,22 @@
+# Ambiente virtual
+.venv/
+
+# Caches
+__pycache__/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Segredos locais
+.env
+.streamlit/secrets.toml
+
+# Dados originais (grandes e regeneráveis)
+data/raw/*
+!data/raw/.gitkeep
+!data/raw/recortes/
+
+# Arquivos gerados pelo app (malhas estáticas)
+app/static/
+
+# Notebooks para estudo
+notebooks/*_estudo.ipynb

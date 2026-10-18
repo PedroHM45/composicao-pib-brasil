@@ -1,0 +1,17 @@
+# Dados
+numpy==2.5.4
+pandas==3.0.6
+sidrapy==0.1.4
+xlrd==2.0.2            # ler planilhas .xls dos recortes
+
+# Geoespacial
+geopandas==1.2.0
+shapely==2.2.0         # simplificar divisas e posicionar rótulos no mapa
+
+# Análise
+scikit-learn==1.9.1
+
+# Visualização e app
+plotly==7.1.0
+streamlit==1.65.0
+orjson==3.13.0         # acelerar a conversão da figura em JSON

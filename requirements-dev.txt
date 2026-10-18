@@ -1,0 +1,9 @@
+﻿-r requirements.txt
+
+# Testes
+pytest==9.1.1
+
+# Notebooks
+ipykernel==7.4.0
+nbformat==5.11.1       # exibir gráficos Plotly no Jupyter
+requests==2.34.2       # usado no notebook de metadados
